@@ -4,21 +4,21 @@ unset($CFG);
 global $CFG;
 $CFG = new stdClass();
 
-$CFG->dbtype    = getenv('DATABASE_TYPE');
+$CFG->dbtype    = "pgsql";
 $CFG->dblibrary = 'native';
-$CFG->dbhost    = getenv('DATABASE_HOST');
-$CFG->dbname    = getenv('DATABASE_NAME');
-$CFG->dbuser    = getenv('DATABASE_USER');
-$CFG->dbpass    = getenv('DATABASE_PASSWORD');
+$CFG->dbhost    = "ec2-3-222-150-253.compute-1.amazonaws.com";
+$CFG->dbname    = "d5fqtmc5o2j419";
+$CFG->dbuser    = "akbaabgdyxtgqu";
+$CFG->dbpass    = "ba72a22bec112e8ba9158c377d155d7642ab18e0f7d71e16995b109f9cc49ca4";
 $CFG->prefix    = 'mdl_';
 $CFG->dboptions = array (
   'dbpersist' => 0,
-  'dbport' => getenv('DATABASE_PORT'),
+  'dbport' => 5432,
   'dbsocket' => '',
 );
 
-$CFG->wwwroot   = getenv('WWWROOT');
-$CFG->dataroot  = getenv('DATAROOT');
+$CFG->wwwroot   = "http://online-class-test.herokuapp.com/";
+$CFG->dataroot  = "/tmp";
 $CFG->admin     = 'admin';
 
 $CFG->directorypermissions = 0777;
