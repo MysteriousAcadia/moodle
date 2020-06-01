@@ -6,10 +6,10 @@ $CFG = new stdClass();
 
 $CFG->dbtype    = "pgsql";
 $CFG->dblibrary = 'native';
-$CFG->dbhost    = "ec2-3-222-150-253.compute-1.amazonaws.com";
-$CFG->dbname    = "d5fqtmc5o2j419";
-$CFG->dbuser    = "akbaabgdyxtgqu";
-$CFG->dbpass    = "ba72a22bec112e8ba9158c377d155d7642ab18e0f7d71e16995b109f9cc49ca4";
+$CFG->dbhost    = "ec2-54-163-230-103.compute-1.amazonaws.com";
+$CFG->dbname    = "d6hjkl9o3rhilo";
+$CFG->dbuser    = "mwanuopuagkjqe";
+$CFG->dbpass    = "df758ac90fcc13d527c8587510746724f809496dcf3337b67140ddb70289e2ad";
 $CFG->prefix    = 'mdl_';
 $CFG->dboptions = array (
   'dbpersist' => 0,
