@@ -17,7 +17,7 @@ $CFG->dboptions = array (
   'dbsocket' => '',
 );
 
-$CFG->wwwroot   = "http://online-class-test.herokuapp.com/";
+$CFG->wwwroot   = "http://online-class-test.herokuapp.com";
 $CFG->dataroot  = "/tmp";
 $CFG->admin     = 'admin';
 
